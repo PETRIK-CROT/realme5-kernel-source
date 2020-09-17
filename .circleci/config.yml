@@ -8,7 +8,7 @@ jobs:
           no_output_timeout: 50m
           command: |
            apt-get -y update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install default-jre
-           git clone https://github.com/PETRIK-CROT/realme5_realme5S_realme5i_AndroidQ-kernel-source ~/kranul
+           git clone https://github.com/PETRIK-CROT/realme5-kernel-source ~/kranul
            cd kranul
 workflows:
   version: 2.1
